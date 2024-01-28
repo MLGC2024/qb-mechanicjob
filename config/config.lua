@@ -2,8 +2,8 @@ Config = {}
 Config.RequireJob = true                       -- do you need a mech job to use parts?
 Config.FuelResource = 'ps-fuel'             -- supports any that has a GetFuel() and SetFuel() export
 
-Config.PaintTime = 5                           -- how long it takes to paint a vehicle in seconds
-Config.ColorFavorites = false                  -- add your own colors to the favorites menu (see bottom of const.lua)
+Config.PaintTime = 10                           -- how long it takes to paint a vehicle in seconds
+Config.ColorFavorites = true                  -- add your own colors to the favorites menu (see bottom of const.lua)
 
 Config.NitrousBoost = 1.8                      -- how much boost nitrous gives (want this above 1.0)
 Config.NitrousUsage = 0.1                      -- how much nitrous is used per frame while holding key
@@ -152,10 +152,10 @@ Config.Shops = {
         blipSprite = 72,
         blipColor = 46,
         blipCoords = vector3(-211.73, -1325.28, 30.89),
-        shop = vector3(-195.80, -1318.24, 31.08),
-        duty = vector3(-202.92, -1313.74, 31.70),
-        stash = vector3(-199.58, -1314.65, 31.08),
-        paint = vector3(-202.42, -1322.16, 31.29),
+        shop = vector3(-206.75, -1341.77, 34.89),
+        duty = vector3(-206.55, -1331.43, 34.89),
+        stash = vector3(-224.3, -1319.99, 30.89),
+        paint = vector3(-221.85, -1329.44, 30.89),
         vehicles = {
             withdraw = vector3(0, 0, 0),
             spawn = vector4(-370.51, -107.88, 38.35, 72.56),
