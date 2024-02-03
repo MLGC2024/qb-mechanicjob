@@ -13,7 +13,7 @@ Config.UseDistanceDamage = true                -- damage vehicle engine health b
 Config.UseWearableParts = true                 -- enable/disable wearable parts
 Config.WearablePartsChance = 1                 -- chance of wearable parts being damaged while driving if enabled
 Config.WearablePartsDamage = math.random(1, 2) -- how much wearable parts are damaged when damaged if enabled
-Config.DamageThreshold = 25                    -- how worn a part needs to be or below to apply an effect if enabled
+Config.DamageThreshold = 25                   -- how worn a part needs to be or below to apply an effect if enabled
 Config.WarningThreshold = 50                   -- how worn a part needs to be to show a warning color in toolbox if enabled
 
 Config.MinimalMetersForDamage = {              -- unused if Config.UseDistanceDamage is false
