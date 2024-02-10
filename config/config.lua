@@ -32,7 +32,7 @@ Config.WearableParts = { -- unused if Config.UseWearableParts is false (feel fre
 
 Config.Shops = {
     mechanic = { -- City location
-        managed = true,
+        managed = false,
         shopLabel = 'LS Customs',
         showBlip = true,
         blipSprite = 72,
@@ -41,7 +41,7 @@ Config.Shops = {
         shop = vector3(-343.66, -140.78, 39.02),
         duty = vector3(-348.18, -134.55, 39.59),
         stash = vector3(-346.02, -130.68, 39.02),
-        paint = vector3(-324.11, -147.11, 39.10),
+        paint = vector3(-338.23, -136.82, 38.63),
         vehicles = {
             withdraw = vector3(-369.30, -104.75, 38.38),
             spawn = vector4(-369.65, -107.8, 38.65, 70.52),
